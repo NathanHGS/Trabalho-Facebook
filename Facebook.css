@@ -1,0 +1,64 @@
+nav{
+    
+    background-color: #3B5998;
+    
+    margin-top: 0px;
+    
+}
+#logopaginainicial{
+    
+    padding-left: 180px;
+    
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+}
+#barradepesquisa{
+    
+    border-radius: 3px 0px 0px 3px;
+    
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+    
+    padding-right: 190px;
+}
+#botaobarradepesquisa{
+    
+    border-radius: 0px 3px 3px 0px;
+    
+    padding-top: 0px;
+    
+    padding-bottom: 0px;
+    
+    margin-right: 40px;
+}
+#usuario{
+    
+    font-family: 'Arial', sans-serif;
+    
+    font-size: 12px;
+    
+    padding-bottom: 0px;
+    
+    padding-top: 0px;
+    
+    background-color: #3B5998;
+    
+    border-color: #3B5998;
+
+    border-right-color: gray;
+}
+#usuarioimagem{
+    
+    height: 24px;
+    
+    width: 24px;
+    
+    border-radius: 100px;
+}
+a{
+    
+    text-decoration: none;
+    
+}
