@@ -33,7 +33,7 @@ nav{
     
     margin-right: 40px;
 }
-#usuario{
+#itens_do_NavBar{
     
     font-family: 'Arial', sans-serif;
     
@@ -46,8 +46,8 @@ nav{
     background-color: #3B5998;
     
     border-color: #3B5998;
-
-    border-right-color: gray;
+    
+    text-decoration: none;
 }
 #usuarioimagem{
     
@@ -57,8 +57,6 @@ nav{
     
     border-radius: 100px;
 }
-a{
-    
-    text-decoration: none;
+#Solicitacao_de_amizade{
     
 }
