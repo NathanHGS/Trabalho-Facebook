@@ -1,261 +1,393 @@
-      <!doctype html>
-      <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
+            <!doctype html>
+            <html lang="en">
+            <head>
+              <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+              <meta name="description" content="">
+              <meta name="author" content="">
 
-        <title>Facebook</title>
+              <title>Facebook</title>
 
-        <!-- Bootstrap core CSS -->
-        <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+              <!-- Bootstrap core CSS -->
+              <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
 
-        <!--CSS da Página -->
-        <link rel="stylesheet" type="text/css" href="Facebook.css"/>
+              <!--CSS da Página -->
+              <link rel="stylesheet" type="text/css" href="Facebook.css"/>
 
-        <!-- Font awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+              <!-- Font awesome -->
+              <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-        <!--Fontes (Forma da Letra) -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Mukta" rel="stylesheet">
-        <style type="text/css">
-        .capa{
-          width: 69.1%;
-          height: 300px;
-        }
-        .borda{
-          border: solid 1.89px white;
-          margin-top: -20%;
-          margin-left: 1.5%;
-        } 
-        body{
-          background-color: #e1e4e8;
-        }
-        .branca{
-          width: 100%;
-          margin:auto;
-          height:40px;
-          background-color: white;
-        }
-        
-      </style>
+              <!--Fontes (Forma da Letra) -->
+              <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Mukta" rel="stylesheet">
+              <style type="text/css">
+              .capa{
+                width: 100%;
+              }
+              .borda{
+                border: solid 1.89px white;
+                margin-top: -20%;
+                margin-left: 1.5%;
+              } 
+              body{
+                background-color: #e1e4e8;
+              }
+              .branca{
+                height:40px;
+                width: 851px;
+                background-color: white;
+              }
+            </style>
 
-      </head>
+            </head>
 
-      <body>
+            <body>
 
-        <div>
+              <div>
 
-          <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark">
 
-            <!-- Icone Facebook (Página Inicial) -->
-            <a class="navbar-brand" href="P%C3%A1gina%20Inicial.html" id="logopaginainicial">
-              <i class="fab fa-facebook-square fa-lg"></i>
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Itens do NavBar -->
-            <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
-
-              <ul class="navbar-nav">
-
-                <!-- Barra da Pesquisa -->
-                <form class="form-inline">
-
-                  <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" id="barradepesquisa">
-                  <button class="btn btn-text-black-50" type="submit" id="botaobarradepesquisa"><i class="fas fa-search"></i></button>
-
-                </form>
-
-                <!-- Usuario -->
-                <li class="nav-item">
-
-
-                 <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="Usuario.html" id="itens_do_NavBar"><img src="img/Usuario.jpg" alt="Usuario" id="usuarioimagem"><strong class="text-white">Rafael</strong></a></button>
-
-               </li>
-
-               <!-- Página Inicial -->
-               <li class="nav-item">
-
-                <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="P%C3%A1gina%20Inicial.html" id="itens_do_NavBar"><strong class="text-white">Página Inicial</strong></a></button>
-
-              </li>
-
-              <!-- Encontrar amigos -->
-              <li class="nav-item">
-
-                <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="encontrar amigos.html" id="itens_do_NavBar"><strong class="text-white">Encontrar amigos</strong></a></button>
-
-              </li>
-
-              <!-- Solicitações de amizade -->
-              <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle py-0" href="#" id="Solicitacao_de_amizade" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: #3B5998;" >
-                  <i class="fas fa-user-friends fa-sm"  style="color: black;"></i>
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="Solicitacao_de_amizade">
-
-                  <a class="dropdown-item" href="#">
-                    <div class="row">
-                      <p class="float-left">Solicitação de Amizade</p>
-                      <a href="encontrar amigos.html">Encontrar amigos</a>
-
-                    </div>
+                  <!-- Icone Facebook (Página Inicial) -->
+                  <a class="navbar-brand" href="P%C3%A1gina%20Inicial.html" id="logopaginainicial">
+                    <i class="fab fa-facebook-square fa-lg"></i>
                   </a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- Itens do NavBar -->
+                  <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav">
+
+                      <!-- Barra da Pesquisa -->
+                      <form class="form-inline">
+
+                        <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" id="barradepesquisa">
+                        <button class="btn btn-text-black-50" type="submit" id="botaobarradepesquisa"><i class="fas fa-search"></i></button>
+
+                      </form>
+
+                      <!-- Usuario -->
+                      <li class="nav-item">
+
+
+                       <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="Usuario.html" id="itens_do_NavBar"><img src="img/Usuario.jpg" alt="Usuario" id="usuarioimagem"><strong class="text-white">Rafael</strong></a></button>
+
+                     </li>
+
+                     <!-- Página Inicial -->
+                     <li class="nav-item">
+
+                      <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="P%C3%A1gina%20Inicial.html" id="itens_do_NavBar"><strong class="text-white">Página Inicial</strong></a></button>
+
+                    </li>
+
+                    <!-- Encontrar amigos -->
+                    <li class="nav-item">
+
+                      <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="encontrar amigos.html" id="itens_do_NavBar"><strong class="text-white">Encontrar amigos</strong></a></button>
+
+                    </li>
+
+                    <!-- Solicitações de amizade -->
+                    <li class="nav-item dropdown">
+
+                      <a class="nav-link dropdown-toggle py-0" href="#" id="Solicitacao_de_amizade" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: #3B5998;" >
+                        <i class="fas fa-user-friends fa-sm"  style="color: black;"></i>
+                      </a>
+
+                      <div class="dropdown-menu" aria-labelledby="Solicitacao_de_amizade">
+
+                        <a class="dropdown-item" href="#">
+                          <div class="row">
+                            <p class="float-left">Solicitação de Amizade</p>
+                            <a href="encontrar amigos.html">Encontrar amigos</a>
+
+                          </div>
+                        </a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+
+                      </div>
+
+                    </li>
+
+
+                    <li class="nav-item">
+
+                      <button type="button" class="btn btn-link rounded-0 px-1" id="itens do NavBar"><a href="https://www.messenger.com/" id="usuario"><i class="fab fa-facebook-messenger fa-lg"  style="color: black;"></i></a></button> 
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                      <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: black;" >
+                        <i class="fas fa-globe-americas fa-sm" ></i>
+                      </a>
+
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+
+                      </div>
+
+                    </li>
+
+
+
+                    <li class="nav-item">
+
+                      <button type="button" class="btn btn-link rounded-0" id="usuario"><a href="encontrar amigos.html" id="usuario"><i class="fas fa-question-circle fa-lg"  style="color: black;"></i></a></button> 
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+
+                      <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
+                      </a>
+
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+
+                      </div>
+
+                    </li>
+
+                  </ul>
 
                 </div>
 
-              </li>
-
-
-              <li class="nav-item">
-
-                <button type="button" class="btn btn-link rounded-0 px-1" id="itens do NavBar"><a href="https://www.messenger.com/" id="usuario"><i class="fab fa-facebook-messenger fa-lg"  style="color: black;"></i></a></button> 
-
-              </li>
-
-              <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: black;" >
-                  <i class="fas fa-globe-americas fa-sm" ></i>
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-
+              </nav>
+              <div class=" container-fluid capa">
+                <img src="img/capa.jpg">
+                <div class="row branca  " style="margin-left: 0px;">
+                <div class="col- ">
+                  <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html" class=""><strong>Linha do tempo</strong></a></button>
                 </div>
-
-              </li>
-
-
-
-              <li class="nav-item">
-
-                <button type="button" class="btn btn-link rounded-0" id="usuario"><a href="encontrar amigos.html" id="usuario"><i class="fas fa-question-circle fa-lg"  style="color: black;"></i></a></button> 
-
-              </li>
-
-              <li class="nav-item dropdown">
-
-                <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-
+                <div class="col ">
+                  <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Sobre</strong></a></button>
                 </div>
+                 <div class="col ">
+                  <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Amigos</strong></a></button>
+                </div>
+                 <div class="col ">
+                  <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Fotos</strong></a></button>
+                </div>
+                 <div class="col">
+                  <button type="button" class="btn btn-link"style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Arquivo</strong></a></button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Mais</strong></a></button>
 
-              </li>
+              </div>
+                </div>
+              </div>
+                 <img src="img/Usuario.jpg" class="borda mx-5 ">
 
-            </ul>
+               </div>
+            <div class="row">
+              <div class="col-4 mx-4" style="background-color: white; font-size: 12px; border: solid 0.5px #b8babc; ">
+                <h6 class="my-1"><i class="fas fa-globe-americas"></i> Apresentação</h6>
+               <p> <i class="fas fa-suitcase"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
+               <p> <i class="fas fa-graduation-cap"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
+               <p> <i class="fas fa-home"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
+               <p> <i class="fas fa-map-marker-alt"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
+                <p> <i class="fas fa-clock"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
+              </div>
+              <div class="col-5 mx-1" style="background-color: white; border: solid 0.5px #b8babc; ">
+                <div class="row" style="background-color:#e1e4e4; border:solid #b8b8bc 0.1px ; height: 37px;">
+                  <div class="col-5">
+                
 
-          </div>
-
-        </nav>
-        <div class=" container-fluid capa">
-          <img src="img/capa.jpg">
-          <div class="row branca">
-            <div class="col">
-
-          </div>
-
-          <div class="row text-center" style="width: 83%;">
-          <div class="col ">
-            <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html" class=""><strong>Linha do tempo</strong></a></button>
-          </div>
-          <div class="col ">
-            <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Sobre</strong></a></button>
-          </div>
-           <div class="col ">
-            <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Amigos</strong></a></button>
-          </div>
-           <div class="col ">
-            <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Fotos</strong></a></button>
-          </div>
-           <div class="col">
-            <button type="button" class="btn btn-link"style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Arquivo</strong></a></button>
-          </div>
-          <div class="col">
-            <button type="button" class="btn btn-link  "style="border-left-color: #dee1e5; "><a href="P%C3%A1gina%20Inicial.html"><strong >Mais</strong></a></button>
-
-        </div>
-          </div>
-        </div>
-           <img src="img/Usuario.jpg" class="borda">
-
-         
-      <div class="row">
-        <div class="col-4 mx-3" style="background-color: white; font-size: 12px;">
-          <h6 class="my-1"><i class="fas fa-globe-americas"></i> Apresentação</h6>
-         <p> <i class="fas fa-suitcase"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
-         <p> <i class="fas fa-graduation-cap"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
-         <p> <i class="fas fa-home"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
-         <p> <i class="fas fa-map-marker-alt"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
-          <p> <i class="fas fa-clock"></i> Diretor Geral - CEO na empresa Warthog Robotics</p>
-        </div>
-        <div class="col-6 mx-4" style="background-color: white;">
-          <div class="row" style="background-color: #d4d4d6; border:solid #b8b8bc 0.1px;">
-            <div class="col-5">
-             <i class="fas fa-pen"></i> Criar publicação
+                      <button type="button" class="btn btn-link my-1"  style="border-right: solid 1px #bdbfc1; font-size: 12px;"><a href="" ><strong class="text-dark"> <i class="fas fa-pen"></i> Criar publicação</strong></a></button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-link my-1"  style="font-size: 12px;"><a href=""><strong class=""> <i class="fas fa-camera text-dark"></i> Foto/vídeo </strong></a></button>
+                  </div>
+                </div>
+              <div class="row">
+              <div class="col-1">
+               <p> <img src="img/Usuario.jpg" class="my-3" style="border-radius: 200px; width: 3rem;"></p>
+             </div>
+             <div class="col">
+               <div class="form-group">
+        <textarea placeholder="Escreva algo para..." class="form-control my-3 mx-3"  style="resize: none; border: none; height: 50px; width: 250px;" id="exampleFormControlTextarea2" rows="3"></textarea>
+    </div>
+    </div>
+             </div>
+             <hr>
+             <div class="row">
+               <div class="col-2">
+                 <button type="button" class=" " style="border:   1px; border-radius: 50px; font-size: 14px; width: 115px;"><span class=""> <i class="fas fa-image mx-1 text-dark"></i> Foto/vídeo </span></a></button>
+               </div>
+               <div class="col-6">
+                 <button type="button" class="mx-5" style="border:   1px; border-radius: 50px; font-size: 14px; width: 175px;"><span class=""> <i class="fas fa-grin-beam mx-1 text-dark"></i> Sentimento/Atividade </span></a></button>
+               </div>
+                <div class="col">
+                 <button type="button" class="mx-2" style="border:   1px; border-radius: 50px; font-size: 14px;"><span class="text-muted">... </span></a></button>
+               </div>
+             </div>
+              <hr>
+              <div class="row float-right">
+                  <i class="fas fa-cog mx-1 my-1 text-dark "></i>
+                  <button type="button" class="btn btn-primary mx-3" style="width: 86px; height: 30px; font-size: 12px;">Publicar</button>
+                  <hr class="text-light">
+              </div>
             </div>
-            <div class="col">
-             <i class="fas fa-camera"></i> Criar publicação
+             <div class="col-4 mx-4 my-3" style="background-color: white; font-size: 12px; height: 375px;  border: solid 0.5px #b8babc; ">
+                <h6 class="my-1"><i class="fas fa-image"></i> Fotos</h6>
+               <div class="row">
+                 <div class="col-4">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                 </div>
+                     <div class="col-4">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                    <img src="img/fotos.jpg" style="margin:2px;">
+                 </div>
+                  <div class="col-4">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                   <img src="img/fotos.jpg" style="margin:2px;">
+                    <img src="img/fotos.jpg" style="margin:2px;">
+                 </div>
+            </div>
+            </div>
+              <div class="col-5 mx-1 my-3" style="background-color: white; border: solid 0.5px #b8babc; ">
+              <div class="row my-3" >
+              <div class="col-2">
+               <img src="img/Usuario.jpg" class="" style="border-radius: 200px; width: 3rem;">
+             </div>
+               <div class="col">
+                 <a  href="" class="">Rafael Guedes Lang </a>compartilhou uma  <a href="">publicação</a> — com <a href="">Rafael Guedes Lang e outras 47 pessoas</a>.<br> 
+                 16 de agosto às 19:48 <i class="fas fa-globe-americas fa-sm" ></i>
+               </div>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <img src="img/post.jpg" style="width: 106%; margin-left: -15px;">
+            <a href="">Instituto Mix São Carlos - SP</a><br>
+            15 de agosto - <i class="fas fa-globe-americas fa-sm" ></i>
+            <p>O que seria de nós sem ela não é mesmo!? 😉👩‍💻👨‍💻💻 #InstitutoMix #Informatica #DiadaInformatica</p>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+               <i class="fas fa-thumbs-up fa-sm" ></i>
+                <i class="fas fa-grin fa-sm" ></i> 
+                 <i class="fas fa-heart fa-sm" ></i> 
+                  <span>43</span>
+              </div>
+              <div class="col">
+                <span>21 comentários</span>
+                <span>1 compartilhamento</span>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-4">
+                <button class="btn bg-light"><i class="fas fa-thumbs-up fa-sm" ></i> Like</button>
+              </div>
+                <div class="col-4">
+                   <button class="btn bg-light"><i class="fas fa-comment-alt fa-sm" ></i> Coment</button>
+                </div>
+                  <div class="col-4">
+                    <button class="btn bg-light"><i class="fas fa-share fa-sm" ></i> Share</button>
+                  </div>
+                </div>
+                <hr>
+                  Ver mais 17 comentários
+                  <div class="row my-2">
+                    <div class="col-1">
+                      <img src="img/Usuario.jpg" class="" style="border-radius: 200px; width: 3rem;">
+                    </div>
+                    <div class="col mx-3 ">
+                      <span  style="border-radius: 20px; border: grey ; background-color: #dae2ef;" ><a href="" > Rafael Guedes Lang</a> Lorem ipsum dolor sit amet.</span>
+                      <br>
+                      <span style="font-size: 13px;"><a href="" class="text-dark">Curtir</a> - <a href="" class="text-dark"> Responder</a> - 4 sem</span>
+                    </div>
+                  </div>
+              
+                 <div class="row my-2">
+                    <div class="col-1">
+                      <img src="img/Usuario.jpg" class="" style="border-radius: 200px; width: 3rem;">
+                    </div>
+                    <div class="col mx-3 ">
+                      <span  style="border-radius: 20px; border: grey ; background-color: #dae2ef;" ><a href="" > Rafael Guedes Lang</a> Lorem ipsum dolor sit amet.</span>
+                      <br>
+                      <span style="font-size: 13px;"><a href="" class="text-dark">Curtir</a> - <a href="" class="text-dark"> Responder</a> - 4 sem</span>
+                    </div>
+                  </div>
+                  
+                <div class="row my-2">
+                    <div class="col-1">
+                      <img src="img/Usuario.jpg" class="" style="border-radius: 200px; width: 3rem;">
+                    </div>
+                    <div class="col mx-3 ">
+                      <span  style="border-radius: 20px; border: grey ; background-color: #dae2ef;" ><a href="" > Rafael Guedes Lang</a> Lorem ipsum dolor sit amet.</span>
+                      <br>
+                      <span style="font-size: 13px;"><a href="" class="text-dark">Curtir</a> - <a href="" class="text-dark"> Responder</a> - 4 sem</span>
+                    </div>
+                  </div>
+                   
+                 <div class="row my-2">
+                    <div class="col-1">
+                      <img src="img/Usuario.jpg" class="" style="border-radius: 200px; width: 3rem;">
+                    </div>
+                    <div class="col mx-3 ">
+                      <span  style="border-radius: 20px; border: grey ; background-color: #dae2ef;" ><a href="" > Rafael Guedes Lang</a> Lorem ipsum dolor sit amet.</span>
+                      <br>
+                      <span style="font-size: 13px;"><a href="" class="text-dark">Curtir</a> - <a href="" class="text-dark"> Responder</a> - 4 sem</span>
+                    </div>
+                  </div>
+                  <div class="row my-3">
+                    <div class="col-1">
+                      <img src="img/Usuario.jpg" class="my-2" style="border-radius: 200px; width: 3rem;">
+                    </div>
+                    <div class="col ">
+                      <textarea placeholder="Escreva um comentário... " class="form-control my-3 mx-3"  style="resize: none; border: solid 0.5px #b8babc; height: 40px; width: 400px; background-color: #eaedf2; border-radius: 30px;" id="exampleFormControlTextarea2" rows="3"></textarea>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            </div>
             </div>
           </div>
-         <p> <img src="img/Usuario.jpg" class="my-1" style="border-radius: 200px; width: 3rem;"> <span class="mx-2">Rafael Guedes Lang</span></p>
-         <hr>
+        </div>
+            <!-- Não mexa daqui para baixo!!! -->
+            <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+            <script src="./assets/js/vendor/popper.min.js"></script>
+            <script src="./dist/js/bootstrap.min.js"></script>
+            <script src="./assets/js/vendor/holder.min.js"></script>
+            <script>
+                  // Example starter JavaScript for disabling form submissions if there are invalid fields
+                  (function() {
+                    'use strict';
 
+                    window.addEventListener('load', function() {
+                      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                      var forms = document.getElementsByClassName('needs-validation');
 
-      </div>
-      </div> 
-      </div>
-
-      </div>
-
-      <!-- Não mexa daqui para baixo!!! -->
-      <script src="./assets/js/vendor/jquery-slim.min.js"></script>
-      <script src="./assets/js/vendor/popper.min.js"></script>
-      <script src="./dist/js/bootstrap.min.js"></script>
-      <script src="./assets/js/vendor/holder.min.js"></script>
-      <script>
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (function() {
-              'use strict';
-
-              window.addEventListener('load', function() {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                  form.addEventListener('submit', function(event) {
-                    if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                    }
-                    form.classList.add('was-validated');
-                  }, false);
-                });
-              }, false);
-            })();
-          </script>
-        </body>
-        </html>
+                      // Loop over them and prevent submission
+                      var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                          if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                          }
+                          form.classList.add('was-validated');
+                        }, false);
+                      });
+                    }, false);
+                  })();
+                </script>
+              </body>
+              </html>
