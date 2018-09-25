@@ -1,132 +1,169 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
+
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Facebook</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-      
-    <!--CSS da Página -->
-    <link rel="stylesheet" type="text/css" href="Facebook.css"/>
-      
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-      
-    <!--Fontes (Forma da Letra) -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Mukta" rel="stylesheet">
-      
+      <title>Facebook</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Icone aba -->
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+      <!-- Font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+      <!-- Css -->
+      <link rel="stylesheet" href="facebook.css" type="text/css"/>
+
   </head>
 
-  <body style="background-color: #F2F2F2;">
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <!-- Icone Facebook (Página Inicial) -->
-            <a class="navbar-brand" href="P%C3%A1gina%20Inicial.html" id="logopaginainicial">
-                <i class="fab fa-facebook-square fa-lg"></i>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <!-- Itens do NavBar -->
-            <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <!-- Barra da Pesquisa -->
-                    <form class="form-inline">
-                        <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" id="barradepesquisa">
-                        <button class="btn btn-text-black-50" type="submit" id="botaobarradepesquisa"><i class="fas fa-search"></i></button>
-                    </form>
-                    <!-- Usuario -->
-                    <li class="nav-item">
-                       <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="Usuario.html" id="itens_do_NavBar"><img src="img/Usuario.jpg" alt="Usuario" id="usuarioimagem"><strong class="text-white">Rafael</strong></a></button>
-                    </li>
-                    <!-- Página Inicial -->
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="P%C3%A1gina%20Inicial.html" id="itens_do_NavBar"><strong class="text-white">Página Inicial</strong></a></button>
-                    </li>
-                    <!-- Encontrar amigos -->
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-link rounded-0" id="itens_do_NavBar" style="border-right-color: #424242;"><a href="encontrar amigos.html" id="itens_do_NavBar"><strong class="text-white">Encontrar amigos</strong></a></button>
-                    </li>
-                    <!-- Solicitações de amizade -->
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle py-0" href="#" id="Solicitacao_de_amizade" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: #3B5998;" >
-                        <i class="fas fa-user-friends fa-sm"  style="color: black;"></i>
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="Solicitacao_de_amizade">
-                        <a class="dropdown-item" href="#">
-                            <div class="row">
-                                <p class="float-left">Solicitação de Amizade</p>
-                                <a href="encontrar amigos.html">Encontrar amigos</a>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-link rounded-0 px-1" id="itens do NavBar"><a href="https://www.messenger.com/" id="usuario"><i class="fab fa-facebook-messenger fa-lg"  style="color: black;"></i></a></button> 
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-right-color: #424242; color: black;" >
-                        <i class="fas fa-globe-americas fa-sm" ></i>
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-link rounded-0" id="usuario"><a href="encontrar amigos.html" id="usuario"><i class="fas fa-question-circle fa-lg"  style="color: black;"></i></a></button> 
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;">
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>   
-                </ul>          
-           </div>           
-        </nav>
-    </div>
-    <!-- Não mexa daqui para baixo!!! -->
-    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="./assets/js/vendor/popper.min.js"></script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/vendor/holder.min.js"></script>
-    <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
+  <body style="background: #e9ebee;">
+      <nav class="navbar navbar-expand-lg py-1" style="background-color: #3b5998;">
+        <div class="container">
+          <!-- Icone NavBar -->
+          <a class="navbar-brand" href="#">
+            <i class="fab fa-facebook-square fa-lg" style="color: white;"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <!-- Barra de pesquisa -->
+              <form class="form-inline">
+                <input class="form-control py-0" type="search" placeholder="Pesquisar" aria-label="Search" id="barra_de_pesquisa">
+                <button class="btn py-0 mr-5" type="submit" id="botao_barra_de_pesquisa"><i class="fas fa-search"></i></button>
+              </form>
+              <!-- Perfil -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+                  <button type="button" class="btn itens_navbar opacity rounded-0">
+                    <img src="img/Usuario.jpg" class="img_usuario" alt=""/>
+                    <a href="perfil.html" class="itens_navbar">Rafael</a>
+                  </button>
+                </div>
+              </div>
+              <!-- Página Inicial -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+                  <button type="button" class="btn itens_navbar opacity rounded-0">
+                    <a href="pagina_incial.html" class="itens_navbar">Página Inicial</a>
+                  </button>
+                </div>
+              </div>
+              <!-- Encontrar amigos -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+                  <button type="button" class="btn itens_navbar opacity rounded-0 mr-3">
+                    <a href="encontrar_amigos.html" class="itens_navbar">Encontrar amigos</a>
+                  </button>
+                </div>
+              </div>
+              <!-- Solicitação de amizade -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="btn-group" role="group">
+                  <button id="Solicitação_de_amizade" type="button" class="btn dropdown itens_navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user-friends fa-lg reviver"></i>
+                  </button>
+                  <div class="dropdown-menu dropdowns" aria-labelledby="Solicitação_de_amizade">
+                    <a class="dropdown-item" href="#">
+                      <a href="encontrar_amigos.html" class="ml-1 float-left">Solicitação de amizade</a>
+                      <a href="#">Configurações</a>
+                      <a href="#" class="float-right">Encontrar amigos</a>
+                    </a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Mensenger -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+                    <button type="button" class="btn itens_navbar mx-0 rounded-0">
+                        <a href="https://www.messenger.com/"><i class="fab fa-facebook-messenger fa-2x reviver"></i></a>
+                    </button>
+                </div>
+              </div>
+              <!-- Notificação -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+                <div class="dropdown">
+                  <button class="btn dropdown itens_navbar" type="button" id="ajuda_rapida" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-globe-americas fa-lg reviver"></i>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Ajuda Rapida -->
+              <div class="dropdown">
+                <button class="btn dropdown itens_navbar reviver" type="button" id="Outros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-question-circle fa-lg reviver"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+              <!-- Outros -->
+              <div class="dropdown">
+                <button class="btn dropdown-toggle itens_navbar reviver" type="button" id="Outros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
 
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
 
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
-        }, false);
-      })();
-    </script>
-  </body>
+
+
+
+      <!-- Não mexa daqui para baixo!!! -->
+      <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+      <script src="./assets/js/vendor/popper.min.js"></script>
+      <script src="./dist/js/bootstrap.min.js"></script>
+      <script src="./assets/js/vendor/holder.min.js"></script>
+      <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+                $('[data-toggle="popover"]').popover()
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+      </script>
+
+    </body>
+
 </html>
