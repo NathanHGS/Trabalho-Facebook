@@ -1,3 +1,4 @@
+
 #barra_de_pesquisa{
 
     padding-right: 170px;
@@ -22,7 +23,7 @@
 
 }
 a:hover{
-    text-decoration:none;
+    text-decoration: none;
 }
 button.opacity:hover{
 
@@ -70,5 +71,59 @@ a.itens_navbar:hover{
     border-color: #e9ebee ;
 }
 button.cd_reviver:hover{
+
     background-color: 	#f7f7f7;
+
+}
+.img_usuario2{
+
+    height: 50px;
+
+    width: 50px;
+
+    border-radius: 100px;
+
+}
+.itens_publicacao{
+
+    background: #f8f9fa;
+
+    border-radius: 100px;
+
+    color: #000;
+
+}
+button.itens_publicacao:hover{
+
+    background: #e9ebee;
+
+}
+label.itens_publicacao:hover{
+
+    background: #e9ebee;
+
+}
+.publicacoes{
+
+    font-size: 14px;
+
+}
+a.publicacoes:hover{
+    text-decoration: underline;
+}
+#publicacoes{
+    color: #fff;
+}
+a#publicacoes:hover{
+
+  color: grey;
+
+}
+#cl-direita{
+
+  color: #e9ebee;
+
+}
+a#cl-direita:hover{
+    color: #000;
 }
