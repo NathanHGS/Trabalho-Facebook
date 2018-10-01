@@ -62,6 +62,16 @@ a.itens_navbar:hover{
 
 }
 /* Conteudo do site */
+#capa{
+    padding-left: 500px;
+}
+#foto{
+    padding-left: 480px;
+    padding-top: 30px;
+}
+#apr{
+    
+}
 .coluna_direita{
 
     font-size: 14px;
