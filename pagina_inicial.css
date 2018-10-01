@@ -62,6 +62,9 @@ i.reviver:hover{
   border-radius: 100px;
 
 }
+.publicacoes{
+    font-size: 14px;
+}
 .itens_publicacao{
 
     background: #e9ebee;
@@ -85,4 +88,12 @@ a.itens_navbar:hover{
 }
 button.cd_reviver:hover{
     background-color: 	#f7f7f7;
+}
+#cl-direita{
+    color: #e9ebee;
+}
+a#cl-direita:hover{
+
+    color: grey;
+
 }
